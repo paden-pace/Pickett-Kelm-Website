@@ -28,28 +28,25 @@
 	<div class="header">
 		<nav class="navbar navbar-default">
 		  <div class="container-fluid">
-		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
-			    <a class="navbar-brand" href="home.html">
-			    	<img src="assets/images/pkaLogo.png" alt="PKA Logo" width="100px" height="50px">
+		      	<a class="navbar-brand" href="home.html">
+			    	<img src="assets/images/pkaLogo.png" alt="PKA Logo" width="160px" height="80px">
 			    </a>
 		    </div>
-
-		    <!-- Collect the nav links, forms, and other content for toggling -->
 		      <ul class="nav navbar-nav navbar-right">
-		      	<li class="nav-tab"><a href="home.html">Home</a></li>
-		        <li class="nav-tab"><a href="projects.html">Projects</a></li>
-		        <li class="nav-tab"><a href="about.html">About Us</a></li>
-		        <li class="nav-tab"><a href="contact.html">Contact Us</a></li>
+		      	<li class="nav-tab"><a class="nav-anc" href="home.html">Home</a></li>
+		        <li class="nav-tab"><a class="nav-anc" href="projects.html">Projects</a></li>
+		        <li class="nav-tab"><a class="nav-anc" href="about.html">About Us</a></li>
+		        <li class="nav-tab"><a class="nav-anc" href="contact.html">Contact Us</a></li>
 		      </ul>
-		  </div><!-- /.container-fluid -->
+		  </div>
 		</nav>
 	</div>
 
 	<div class="container">
 		<div class="row">
-			<div class="welcome">
-				<h3>Projects</h3>
+			<div class="welcome" id="projects-welcome">
+				<h2>Projects</h2>
 
 				<p>PKA has been responsible for the structural engineering design and construction phase support for a range of project types, both public and private,  including educational facilities, religious facilities, office and other commercial buildings, parking garages, sports stadiums, recreational and athletic facilities, pump stations, lift stations and other public works facilities, highway, pedestrian and golf cart bridges, retaining walls and small dams.</p>
 
@@ -62,24 +59,24 @@
 		<div class="row">
 			<div class="col-md-6">
 				<div class="sidbar">
-					<div><a class="sidbar-tab" id ="edu-fac-tab">Educational Facilities</a></div>
-			        <div><a class="sidbar-tab" id ="rel-fac-tab">Religious Facilities</a></div>
-			        <div><a class="sidbar-tab" id ="com-fac-tab">Commercial Facilities</a></div>
-			        <div><a class="sidbar-tab" id ="ind-fac-tab">Industrial Facilities</a></div>
-					<div><a class="sidbar-tab" id ="pub-build-tab">Public Buidings</a></div>
-					<div><a class="sidbar-tab" id ="sprts-rec-tab">Sports and Recreational Facilities</a></div>
-			        <div><a class="sidbar-tab" id ="pub-works-tab">Public Works</a></div>
-			        <div><a class="sidbar-tab" id ="ped-bridge-tab">Golf Cart and Pedestrian Bridges</a></div>
-			        <div><a class="sidbar-tab" id ="hwy-bridge-tab">Highway Bridges</a></div>
-			        <div><a class="sidbar-tab" id ="civ-tab">Civil Structures</a></div>
-			        <div><a class="sidbar-tab" id ="design-tab">Design Build</a></div>
+					<div><a href="#edu-fac-sec" class="sidbar-tab" id ="edu-fac-tab">Educational Facilities</a></div>
+			        <div><a href="#rel-fac-sec" class="sidbar-tab" id ="rel-fac-tab">Religious Facilities</a></div>
+			        <div><a href="#com-fac-sec" class="sidbar-tab" id ="com-fac-tab">Commercial Facilities</a></div>
+			        <div><a href="#ind-fac-sec" class="sidbar-tab" id ="ind-fac-tab">Industrial Facilities</a></div>
+					<div><a href="#pub-build-sec" class="sidbar-tab" id ="pub-build-tab">Public Buidings</a></div>
+					<div><a href="#sprts-rec-sec" class="sidbar-tab" id ="sprts-rec-tab">Sports and Recreational Facilities</a></div>
+			        <div><a href="#pub-works-sec" class="sidbar-tab" id ="pub-works-tab">Public Works</a></div>
+			        <div><a href="#ped-bridge-sec" class="sidbar-tab" id ="ped-bridge-tab">Golf Cart and Pedestrian Bridges</a></div>
+			        <div><a href="#hwy-bridge-sec" class="sidbar-tab" id ="hwy-bridge-tab">Highway Bridges</a></div>
+			        <div><a href="#civ-sec" class="sidbar-tab" id ="civ-tab">Civil Structures</a></div>
+			        <div><a href="#design-sec" class="sidbar-tab" id ="design-tab">Design Build</a></div>
 			    </div>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-md-12">
-				<div class="proj-sec" id="edu-fac-sec">
+				<div class="proj-sec proj-sec-even" id="edu-fac-sec">
 					<div class="row proj-title" id="edu-fac-title">
 						<h3>Educational Facilities</h3>
 					</div>
@@ -172,9 +169,12 @@
 							<li class="pdfLinkNo pdfLink">Fondren Jones Science Building Addition, Southwestern University</li>
 						</ul>
 					</div>
+					<div>
+						<a href="#projects-welcome" class="toTop">Back to Top</a>
+					</div>
 				</div>
 
-				<div class="proj-sec" id="rel-fac-sec">
+				<div class="proj-sec proj-sec-odd" id="rel-fac-sec">
 					<div class="row proj-title" id="rel-fac-title">
 						<h3>Religious Facilities</h3>
 					</div>
@@ -203,9 +203,12 @@
 							<li class="pdfLinkNo pdfLink">St. Ferdinand Catholic Church Sanctuary in Blanco</li>	
 						</ul>
 					</div>
+					<div>
+						<a href="#projects-welcome" class="toTop">Back to Top</a>
+					</div>
 				</div>
 
-				<div class="proj-sec" id="com-fac-sec">
+				<div class="proj-sec proj-sec-even" id="com-fac-sec">
 					<div class="row proj-title" id="com-fac-title">
 						<h3>Commercial Development</h3>
 					</div>
@@ -276,9 +279,12 @@
 							<li><a href="assets/pdfs/ProgressiveInsuranceParkingGarage.pdf" target="_blank" class="pdfLink pdfLinkYes">Progressive Insurance Parking Garage</a></li>
 						</ul>
 					</div>
+					<div>
+						<a href="#projects-welcome" class="toTop">Back to Top</a>
+					</div>
 				</div>
 
-				<div class="proj-sec" id="ind-fac-sec">
+				<div class="proj-sec proj-sec-odd" id="ind-fac-sec">
 					<div class="row proj-title" id="ind-fac-title">
 						<h3>Industrial Facilities</h3>
 					</div>
@@ -319,9 +325,12 @@
 							<li><a href="assets/pdfs/LCRAWestTravisCountyChemicalBldg.pdf" target="_blank" class="pdfLink pdfLinkYes">LCRA West Travis County Chemical Building</a></li>
 						</ul>
 					</div>
+					<div>
+						<a href="#projects-welcome" class="toTop">Back to Top</a>
+					</div>
 				</div>
 
-			    <div class="proj-sec" id="pub-build-sec">
+			    <div class="proj-sec proj-sec-even" id="pub-build-sec">
 					<div class="row proj-title" id="pub-build-title">
 						<h3>Public Buidings</h3>
 					</div>
@@ -354,9 +363,12 @@
 							<li><a href="assets/pdfs/GillespieCountyRestAreas.pdf" target="_blank" class="pdfLink pdfLinkYes">Gillespie County Rest Areas</a></li>	
 						</ul>
 					</div>
+					<div>
+						<a href="#projects-welcome" class="toTop">Back to Top</a>
+					</div>
 				</div>
 
-				<div class="proj-sec" id="spts-rec-sec">
+				<div class="proj-sec proj-sec-odd" id="spts-rec-sec">
 					<div class="row proj-title" id="spts-rec-title">
 						<h3>Public Works</h3>
 					</div>
@@ -400,9 +412,12 @@
 							<li class="pdfLinkNo pdfLink">Frank Denius Practice Field at the University of Texas at Austin</li>
 						</ul>
 					</div>
+					<div>
+						<a href="#projects-welcome" class="toTop">Back to Top</a>
+					</div>
 				</div>
 
-			    <div class="proj-sec" id="pub-works-sec">
+			    <div class="proj-sec proj-sec-even" id="pub-works-sec">
 					<div class="row proj-title" id="pub-works-title">
 						<h3>Public Works</h3>
 					</div>
@@ -429,10 +444,14 @@
 							<li class="pdfLinkNo pdfLink">LCRA West Travis County Chemical Storage Building</li>
 
 							<li class="pdfLinkNo pdfLink">Cedar Park Twin Creeks Lift Station</li>
+						</ul>
+					</div>
+					<div>
+						<a href="#projects-welcome" class="toTop">Back to Top</a>
 					</div>
 				</div>
 
-			    <div class="proj-sec" id="ped-bridge-sec">
+			    <div class="proj-sec proj-sec-odd" id="ped-bridge-sec">
 					<div class="row proj-title" id="ped-bridge-title">
 						<h3>Golf Cart and Pedestrian Bridges</h3>
 					</div>
@@ -451,10 +470,14 @@
 							<li><a href="assets/pdfs/ScofieldParkPedestrianBridge.pdf" target="_blank" class="pdfLink pdfLinkYes">Scofield Park Pedestrian Bridge</a></li>
 
 							<li><a href="assets/pdfs/CentralParkPedestrianBridge.pdf" target="_blank" class="pdfLink pdfLinkYes">Central Park Pedestrian Bridges</a></li>
+						</ul>
+					</div>
+					<div>
+						<a href="#projects-welcome" class="toTop">Back to Top</a>
 					</div>
 				</div>
 
-				<div class="proj-sec" id="hwy-bridge-sec">
+				<div class="proj-sec proj-sec-even" id="hwy-bridge-sec">
 					<div class="row proj-title" id="hwy-bridge-title">
 						<h3>Highway Bridges</h3>
 					</div>
@@ -505,10 +528,14 @@
 							<li class="pdfLinkNo pdfLink">Jefferson at Treetops Bridge</li>
 
 							<li class="pdfLinkNo pdfLink">Jefferson at Waters Park Bridge</li>
+						</ul>
+					</div>
+					<div>
+						<a href="#projects-welcome" class="toTop">Back to Top</a>
 					</div>
 				</div>
 
-				<div class="proj-sec" id="civ-sec">
+				<div class="proj-sec proj-sec-odd" id="civ-sec">
 					<div class="row proj-title" id="civ-title">
 						<h3>Civil Structures</h3>
 					</div>
@@ -535,9 +562,12 @@
 							<li class="pdfLinkNo pdfLink">Barton Creek County Club Fazio Canyons Gold Course Structures</li>
 						</ul>
 					</div>
+					<div>
+						<a href="#projects-welcome" class="toTop">Back to Top</a>
+					</div>
 				</div>
 
-				<div class="proj-sec" id="design-sec">
+				<div class="proj-sec proj-sec-even" id="design-sec">
 					<div class="row proj-title" id="design-title">
 						<h3>Design Build</h3>
 					</div>
@@ -556,46 +586,53 @@
 
 						<p>PKA has served as the structural engineer for design-build teams for projects involving industrial manufacturing, office buildings, retail buildings, sports facilities and public and institutional projects.</p>
 					</div>
+					<div>
+						<a href="#projects-welcome" class="toTop">Back to Top</a>
+					</div>
 				</div>
-
+			<div>
+				<a href="#projects-welcome" class="toTop">Back to Top</a>
+			</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="footer row">
-		<div class="col-md-4">
-			<div class="row">
-				<div class="col-md-6">
-					<img src="assets/images/sfaLogo.jpg" id="sfa" alt="SFA Logo">
-				</div>
-				<div class="col-md-6">
-					<div class="row">
-						<img src="assets/images/ptiLogo.jpg" alt="PTI Logo">
+	<div class="outter-footer">
+		<div class="footer row">
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-6 footer-img-holder">
+						<img src="assets/images/sfaLogo.jpg" class="footer-img" alt="SFA Logo">
 					</div>
-					<div class="row">
-						<img src="assets/images/tcaLogo.jpg" alt="TCA Logo">
+					<div class="col-md-6 footer-img-holder">
+						<img src="assets/images/tcaLogo.jpg" class="footer-img" alt="TCA Logo">
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="col-md-4" id="footer-text">
-			<p class="footer-name">Pickett, Kelm &amp; Associates, Inc.</p>
-			<p class="footer-info">4100 Duval Road, Building 4, Suite 103</p>
-			<p class="footer-info">Austin, Texas 78759-4277</p>
-			<p class="footer-info">Tel. (512) 345-5538,  Fax (512) 345-4305</p>
-		</div>
-		<div class="col-md-4">
-			<div class="row">
-				<div class="col-md-6">
-					<img src="assets/images/aciLogo.jpg" alt="ACI Logo">
-				</div>
-				<div class="col-md-6">
-					<img src="assets/images/aiscLogo.jpg" alt="AISC Logo">
+			<div class="col-md-4" id="footer-text">
+				<div class="row footer-center-row">
+					<div class="footer-textbox">
+						<p class="footer-text footer-name">Pickett, Kelm &amp; Associates, Inc.</p>
+						<p class="footer-text footer-info">4100 Duval Road, Building 4, Suite 103</p>
+						<p class="footer-text footer-info">Austin, Texas 78759-4277</p>
+						<p class="footer-text footer-info">Tel. (512) 345-5538,  Fax (512) 345-4305</p>
+					</div>
+					<div class="row">
+						<img src="assets/images/ptiLogo.jpg" class="center-footer-img" alt="PTI Logo">
+					</div>
 				</div>
 			</div>
-			
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-6 footer-img-holder">
+						<img src="assets/images/aciLogo.jpg" class="footer-img" alt="ACI Logo">
+					</div>
+					<div class="col-md-6 footer-img-holder">
+						<img src="assets/images/aiscLogo.jpg" class="footer-img" alt="AISC Logo">
+					</div>
+				</div>		
+			</div>
 		</div>
-
 	</div>
 	
 
